@@ -1,0 +1,13 @@
+{
+  "name": "attendance-app",
+  "version": "3.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import-json": "node scripts/import-json.js data.json"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  }
+}
